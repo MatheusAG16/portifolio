@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(3, 3, 3);
+}
+
+header > div#fotoheader {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 30px;
+    background-color: white;
+    display: inline-block;
+}
+
+header > nav {
+    color: white;
+    float: right;
+    padding-top: 13px;
+    font-size: 2vw;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
