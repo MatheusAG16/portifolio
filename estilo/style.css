@@ -6,9 +6,11 @@
 }
 
 header {
+    display: flex;
     height: 50px;
     width: 100vw;
     background-color: rgb(3, 3, 3);
+    justify-content: space-between;
 }
 
 header > div#fotoheader {
@@ -22,9 +24,8 @@ header > div#fotoheader {
 
 header > nav {
     color: white;
-    float: right;
-    padding-top: 13px;
-    font-size: 2vw;
+    padding-top: 15px;
+    padding-right: 15px;
 }
 
 nav > a {
