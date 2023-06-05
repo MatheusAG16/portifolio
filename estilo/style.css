@@ -39,3 +39,94 @@ nav > a {
 nav > a:hover {
     text-decoration: underline;
 }
+
+/*Configurações main*/
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 50px 80px;
+    background-color: grey;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+/*Configuração global das divs do main*/
+.div-main {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*Primeira div do site, temos uma foto e 4 links para as redes sociais*/
+div#social {
+    max-width: 150px;
+    max-height: 500px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+/*Div da Foto de perfil do portifólio*/
+div#foto {
+    max-width: 150px;
+    max-height: 150px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+/*Configurações dos links e logos das redes sociais*/
+
+p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+ul.links-sociais {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.foto-perfil {
+    border-radius: 100px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.logo {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.349);
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+.links-sociais > li {
+    padding-top: 30px;
+}
+
+/*Configurações da div Sobre*/
+
+#sobre {
+    max-width: 600px;
+    max-height: 300px;
+}
+
+/*Configuração da div Ola mundo*/
+
+#ola-mundo {
+    max-width: 600px;
+    max-height: 200px;
+    position: relative;
+    bottom: 400px;
+    left: 157px;
+}
