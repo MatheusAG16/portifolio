@@ -33,8 +33,14 @@ main {
     max-height: 100vh;
     margin: auto;
     display: grid;
+    grid-template-rows: 100px;
 }
 
 p {
     background-color: rgba(128, 128, 128, 0.39);
+}
+
+#primeira {
+    width: 200px;
+    height: 400px;
 }
