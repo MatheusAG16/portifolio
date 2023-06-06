@@ -8,7 +8,7 @@
 header {
     display: flex;
     height: 50px;
-    width: 100vw;
+    width: 99vw;
     background-color: rgb(3, 3, 3);
     justify-content: space-between;
 }
@@ -47,8 +47,8 @@ main {
     justify-content: space-between;
     align-items: flex-end;
     margin: 50px 80px;
-    background-color: grey;
-    max-width: 100vw;
+    background-color: rgba(128, 128, 128, 0);
+    max-width: 99vw;
     max-height: 100vh;
 }
 
@@ -119,14 +119,4 @@ li > a {
 #sobre {
     max-width: 600px;
     max-height: 300px;
-}
-
-/*Configuração da div Ola mundo*/
-
-#ola-mundo {
-    max-width: 600px;
-    max-height: 200px;
-    position: relative;
-    bottom: 400px;
-    left: 157px;
 }

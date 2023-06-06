@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100vw;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding: 25px;
+}
+
+.quadrada {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+main {
+    border: 1px solid black;
+    max-width:70vw;
+    max-height: 100vh;
+    margin: auto;
+    display: grid;
+}
+
+p {
+    background-color: rgba(128, 128, 128, 0.39);
+}
