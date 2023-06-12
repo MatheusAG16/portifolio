@@ -70,8 +70,8 @@ div#social {
 }
 /*Div da Foto de perfil do portifólio*/
 div#foto {
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 123px;
+    max-height: 123px;
     border: 1px solid black;
     border-radius: 100px;
 }
@@ -89,9 +89,9 @@ ul.links-sociais {
 }
 
 .foto-perfil {
+    max-width: 100%;
+    max-height: auto;
     border-radius: 100px;
-    max-width: 100vw;
-    max-height: 150px;
 }
 
 .logo {
